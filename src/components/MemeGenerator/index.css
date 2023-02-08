@@ -1,0 +1,97 @@
+.main-container {
+  padding: 35px 7.5%;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .main-container {
+    padding: 35px 15%;
+  }
+}
+
+.meme-main-heading {
+  color: #35469c;
+  font-family: Roboto;
+  font-weight: 500;
+  text-align: center;
+}
+
+.form-and-meme-display-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .form-and-meme-display-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+.form-container {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 30px 24px;
+  width: 40%;
+}
+
+@media (max-width: 767px) {
+  .form-container {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 30px 24px;
+    width: 100%;
+  }
+}
+
+.label-and-input-container {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  color: #1e293b;
+  font-family: Roboto;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.input-field {
+  border: 1px solid #7e858e;
+  color: #7e858e;
+  padding: 8px 8px 8px 14px;
+  outline: none;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.drop-down-input-field {
+  border: 1px solid #7e858e;
+  color: #000000;
+  padding: 8px 8px 8px 14px;
+  outline: none;
+  border-radius: 6px;
+  width: 100%;
+  font-weight: 600;
+}
+
+.generate-button {
+  background-color: #35469c;
+
+  font-family: Roboto;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* .meme-display-container {
+  width: 45%;
+} */
